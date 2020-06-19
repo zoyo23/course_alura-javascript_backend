@@ -13,15 +13,8 @@ module.exports = (app) => {
     });
 
     app.get('/livros', function (req, resp) {
-        resp.send(`
-        <html lang="pt-BR">
-            <head>
-                <meta charset="UTF-8">
-            </head>
-            <body>
-                <h1>Listagem de livros</h1> 
-            </body>
-        </html>`
+        resp.marko(
+            require('../views/livros/Lista/lista.marko')
         );
     });
 }
