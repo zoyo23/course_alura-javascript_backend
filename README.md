@@ -14,3 +14,11 @@ Referência: https://cursos.alura.com.br/course/nodejs-fundamentos
 - Utilizar o npm para instalação de pacotes de dependências de um projeto Node.
 
 ## Capítulo 2 - Express e templates com Marko
+
+- O que é o Express.
+- Criar rotas utilizando o Express.
+- Como exportar informações e funcionalidades de nossos módulos Node usando a sintaxe module.exports.
+- O que é o Nodemon e como utilizá-lo para agilizar o desenvolvimento.
+- Criar templates dinâmicos com MarkoJS.
+
+## Capítulo 3 - Persistência de dados
