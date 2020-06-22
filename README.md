@@ -22,3 +22,9 @@ Referência: https://cursos.alura.com.br/course/nodejs-fundamentos
 - Criar templates dinâmicos com MarkoJS.
 
 ## Capítulo 3 - Persistência de dados
+
+- O que é o SQLite.
+- Como utilizar o SQLite numa aplicação Node.
+- O que é o padrão DAO.
+- O que são Promises.
+- Como desenvolver o padrão DAO utilizando uma abordagem voltada para callbacks e voltada para Promises.
