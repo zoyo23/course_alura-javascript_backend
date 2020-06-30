@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <h1>CAdastro de livros</h1>
+
+    <form action="/livros" method="post">
+
+        <input type="hidden" name="id">
+
+        <div>
+            <label for="titulo">Titulo:</label>
+            <input type="text" name="titulo" id="titulo" placeholder="Coloque o titulo aqui">
+        </div>
+        <div>
+            <label for="preco">Preço:</label>
+            <input type="text" name="preco" id="preco" placeholder="150.25">
+        </div>
+        <div>
+            <label for="descricao">Descrição:</label>
+            <textarea cols="20" rows="20" name="descricao" id="descricao"
+                placeholder="Coloque a descrição aqui"></textarea>
+        </div>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+
+</html>
