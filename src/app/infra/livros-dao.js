@@ -43,7 +43,7 @@ class LivroDao {
     buscarPorId(id) {
         return new Promise((resolve, reject) => {
 
-            this._db.all(`SELECT * FROM Livros WHERE ID = ?`,
+            this._db.get(`SELECT * FROM Livros WHERE ID = ?`,
                 [id],
 
                 (err, resultado) => {
