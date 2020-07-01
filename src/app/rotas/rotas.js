@@ -41,7 +41,6 @@ module.exports = (app) => {
 
         livroDao.buscarPorId(id)
             .then(livro => {
-                console.log(livro);
                 resp.marko(
                     require('../views/livros/form/form.marko'),
                     { livro: livro }

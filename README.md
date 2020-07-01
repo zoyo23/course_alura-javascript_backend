@@ -35,3 +35,12 @@ Referência: https://cursos.alura.com.br/course/nodejs-fundamentos
 - O que são middlewares e para que servem.
 - O que é o módulo body-parser e como ele ajuda a obter os dados vindos no corpo de uma requisição POST.
 - Como utilizar o módulo body-parser criando um middleware que o utilize.
+
+## Capítulo 4 - Evoluindo a aplicação
+
+- Como criar uma rota para o método DELETE do protocolo HTTP.
+- Como criar variáveis de URL para recuperar seus valores em rotas.
+- A trabalhar com AJAX em aplicações Node.
+- A utilizar arquivos estáticos utilizando o middleware express.static().
+- Como criar uma rota para o método PUT do protocolo HTTP.
+- A sobrescrever o método HTTP com o módulo method-override.
