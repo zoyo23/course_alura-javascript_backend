@@ -3,9 +3,12 @@
 <body>
     <h1>CAdastro de livros</h1>
 
-    <form action="/livros" method="post">
+    <form action="/livros" method="POST">
 
-        <input type="hidden" name="id" value="${data.livro.id}">
+        <div if(data.livro.id)>
+            <input type="hidden" name="_method" value="PUT">
+            <input type="hidden" name="id" value="${data.livro.id}">
+        </div>
 
         <div>
             <label for="titulo">Titulo:</label>
